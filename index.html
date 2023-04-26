@@ -1,114 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>Giới thiệu bản thân</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.left {
+			flex: 1;
+			text-align: left;
+		}
+		div.left{
+			text-decoration: none;
+			display: inline-grid;
+		}
+		div.left a{
+			text-decoration: none;
+			padding: 20px;
+			color:black;
+		}
+		.center {
+			flex: 2;
+			text-align: center;
+		}
+		h1{
+			padding-bottom: 50px;
+			padding-right: 50px;
+		}
+		.right {
+			flex: 1;
+			text-align: right;
+		}
+		div.right p{
+			padding-right: 50px;
+		}
+		div.right img{
+			padding-right: 70px;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		nav{
+			background-color: #C0C0C0;
+		}
+		nav a{
+			color: white;
+			font-family: fantasy;
+			padding: 60px;
+			text-decoration: none;
+		
+		}
+		nav ul{
+			list-style: none;
+			display: flex;
+			margin: 20px;
+			padding-left: 340px;
+		}
+		footer {
+			background-color:#100b0b;
+			color: #fff;
+			padding: 20px;
+			font-family: arial;
+		}
+		footer p{
+			padding-inline: 22px;
+			font-size: 160%;
+		}
+		footer a{
+			padding: 40px;
+			padding-left: 80px;
+		}
+
+		.footer-icon {
+			padding: 20%;
+			display: inline-block;
+			margin-right: 10px;
+		}
+
+		.footer-icon img {
+			height: 30px;
+		}
+	</style>
 </head>
 <body>
-    <style >
-        body{
-            height: 200px;
-            background-image: url('./imega/anhnen.jpg');    
-            background-size: cover;  
-        }
-        *{
-            text-decoration: none;
-            padding: 0px;
-            margin: 0px;
-            font-family: Arial;
-        }
-        .container{
-            max-width: 960px;
-            margin: 0px auto;
-        }
-    #header{
-        background-color:black;
-    }
-    nav{
-        display:flex;
-        justify-content: space-between;
-        line-height: 2em;
-        height: 4em;
-    }
-    #logo{
-        padding-left: 1px;
-        padding-top: 0.3em;
-        width: 200px;
-    }
-    #logo img{
-        max-width: 70px;
-        height: auto;
-    }
-    #main-menu{
-       display: flex;
-       list-style: none;
-       margin: 0;
-    padding: 0%;
-    }
-    #main-menu li{
-        position: relative;
-        font-size: 20px;
-    }
-    #main-menu li a{
-        color: white;
-        display: block;
-        padding: 18px 20px;
-        text-decoration: none;
-    }
-    #main-menu ul.sub-menu{
-        position: absolute;
-        background-color: brown;
-        padding: 15px 0px;
-        list-style: none;
-        width: 200px;
-    }
-    #main-menu ul.sub-menu a{   
-        padding: 8px 15px;
-        border-bottom: 1px solid;
-    }
-    #main-menu ul.sub-menu li:hover a{
-        border-bottom:white;
-    }
-    #main-menu ul.sub-menu li:last-child a{
-        border: none;
-    }
-    #main-menu ul.sub-menu ul.sub-menu{
-        left: 200px;
-    } 
-.thongtin{
-    color:red;
-    font-family:sans-serif;
-}
-    </style>
-    <div id="wrapper">
-        <div id="header">
-            <nav class="container">
-                <a href="" id="logo"><img src="./imega/anhlogochuachinhthuc.jpg" alt="Unitop.vn">
-                </a>
-                <ul id="main-menu">
-                    <li><a href="">Trang chủ</a></li>
-                    <li><a href="">Dịch vụ</a></li>
-                    <li><a href="">Bảng giá</a></li>
-                    <li><a href="">Giới thiệu</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="wp-content">
-
-        </div>
-        <div id="footer">
-
-        </div>
-    </div>
-    <table class="thongtin" boder="1">
-        <tr>
-            <td>choreographer:</td>
-        </tr>
-        <tr>
-            <td>Nguyen Anh Tai</td>
-        </tr>
-    </table>
-</body>
-</html>
+	<header>
+		<h1>Giới thiệu bản thân</h1>
+	</header>
+	<nav>
+		<ul>
+		  <li><a href="./giới thiệu.html">Giới thiệu</a></li>
+		  <li><a href="./que hương.html">Quê hương</a></li>
+		  <li><a href="./chuyên ngành đang theo học.html">Ngành học</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<div class="left">
+			<a href="https://www.dainam.edu.vn/vi">Trường tôi đang theo học</a>
+			<a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin/tin-tuc/sinh-vien-cntt-dai-nam-duoc-hoc-chuyen-nganh-ngay-tu-nam-thu-nhat-thay-vi-hoc-cac-mon-dai-cuong">Chuyên ngành của tôi</a>
+			<a href="https://www.facebook.com/profile.php?id=100040350398595&mibextid=ZbWKwL">Facebook của tôi</a>
+			<a href="https://vivudulich.com/tour-du-lich-ha-giang-2-ngay-2-dem/">Nơi tôi muốn đến</a>
+		</div>
+		<div class="center">
+			<h1>Thông tin cơ bản<br></h1>
+			<p1><img src="./hinhanh/anhgioithieu.png"></p1>
+		</div>
+		<div class="right">
+			<img src="./hinhanh/anhavatar.jpg" alt="Ảnh đại diện"><br>
+			<p>Họ và tên:Nguyễn Trọng Anh</p><br>
+			<p>Trường:Đai Nam university</p><br>
+			<p>Chuyên ngành:Công nghệ thông tin</p><br>
+			<p>MSV:1671020030</p><br>
+			<p>Lớp:CNTT-1605</p>
+		</div>
+	</div>
+	     <footer>
+            <p>Liên hệ với tôi:</p>
+			<a href="https://www.facebook.com/profile.php?id=100040350398595&mibextid=ZbWKwL"><img src="./hinhanh/iconfacebook.png" alt="Facebook" class="icon"></a>
+			<a href="https://www.instagram.com/accounts/login/"><img src="./hinhanh/iconinstagram.jpg" alt="Facebook" class="icon"></a>
+			<a href="https://www.tiktok.com/login"><img src="./hinhanh/icontiktok.jpg" alt="Facebook" class="icon"></a>
+            <a href="https://twitter.com/"><img src="./hinhanh/icontiwtter.png" alt="Facebook" class="icon"></a>
+            <a href="https://chat.zalo.me/"><img src="./hinhanh/iconzalo.png" alt="Instagram" class="icon"></a>
+        </footer>
+		</body>
+		</html>
+    
